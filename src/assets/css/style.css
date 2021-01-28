@@ -928,6 +928,9 @@ textarea:focus {
 .popup_calc_content .balcon_icons {
   margin-bottom: 1rem;
 }
+.balcon_icons_img img {
+  cursor: pointer;
+}
 
 .popup_calc_content .big_img img {
   display: none;

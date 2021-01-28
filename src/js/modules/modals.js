@@ -1,4 +1,5 @@
 const modals = () => {
+
    function bindModal(triggerSelector,modalSelector,closeSelector) {
 
       const trigger = document.querySelectorAll(triggerSelector),
@@ -40,8 +41,6 @@ const modals = () => {
    bindModal('.phone_link','.popup','.popup .popup_close');
    showModalByTime('.popup',60000);
 };
-
-
 
 
 export default modals;

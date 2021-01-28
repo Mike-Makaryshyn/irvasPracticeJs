@@ -366,8 +366,10 @@ textarea:focus {
   padding: 8rem 0;
 }
 
+
 .glazing_block {
   display: inline-block;
+  cursor: pointer;
 }
 
 .glazing_block img {

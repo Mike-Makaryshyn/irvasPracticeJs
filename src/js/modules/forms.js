@@ -58,8 +58,9 @@ const forms = (state) => {
                   statusMessage.remove();
                   windows.forEach(item => {
                      item.style.display = 'none';
+                     document.body.classList.remove('modal-open');
                   });
-               },4000);
+               },3200);
             });
       });
    });
